@@ -25,7 +25,9 @@ Kelas: Sistem Informasi 2022 B2
             return harga;
         }
     }
+
 -Ini adalah kelas entitas yang mewakili produk produk di toko airsoft. Setiap produk memiliki tiga atribut: id, nama, dan harga
+
 -Disediakan konstruktor untuk membuat objek produk dan metode getters untuk mengakses atribut-atribut ini
 
     public final class AirsoftDatabase {
@@ -65,11 +67,17 @@ Kelas: Sistem Informasi 2022 B2
             produk.removeIf(product -> product.getId() == id);
         }
     }
+
 -Ini adalah kelas yang bertanggung jawab atas manajemen data produk airsoft. Data produk disimpan dalam ArrayList yang disebut "produk"
+
 -Metode addProduct digunakan untuk menambahkan produk baru ke dalam database
+
 -Metode getProductById digunakan untuk mencari produk berdasarkan ID
+
 -Metode getAllProducts digunakan untuk mengambil semua produk dalam database
+
 -Metode updateProduct digunakan untuk memperbarui produk yang ada
+
 -Metode deleteProduct digunakan untuk menghapus produk berdasarkan ID
 
     public final class Posttest2 {
@@ -134,8 +142,13 @@ Kelas: Sistem Informasi 2022 B2
             }
         }
     }
+
 -Ini adalah kelas utama yang berfungsi sebagai titik masuk program
+
 -Program berjalan menggunakan loop
+
 -Pengguna diberikan beberapa pilihan, seperti menambahkan produk, menampilkan produk, memperbarui produk, dan menghapus produk.
+
 -Pengguna memasukkan pilihan yang mereka inginkan dan program akan menjalankan fungsi yang sesuai dengan pilihan para pengguna
+
 -Ada validasi input sederhana untuk memastikan bahwa pengguna memasukkan data yang sesuai
